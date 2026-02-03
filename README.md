@@ -113,11 +113,11 @@ graph LR
     Root --> Models[📁 models/]
     Root --> Config[📄 Procfile & nixpacks.toml]
     
-    Backend --> Django[⚙️ Django App]
-    Backend --> Static[🎨 Static (CSS/JS/Images)]
-    Backend --> Templates[📝 HTML Templates]
+    Backend --> Django["⚙️ Django App"]
+    Backend --> Static["🎨 Static (CSS/JS/Images)"]
+    Backend --> Templates["📝 HTML Templates"]
     
-    Models --> Keras[🧠 .keras Model File]
+    Models --> Keras["🧠 .keras Model File"]
     
     style Root fill:#f9f,stroke:#333
     style Backend fill:#bbf,stroke:#333
