@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["python311", "gcc", "zlib", "libjpeg", "libopenjp2", "libtiff", "freetype"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[phases.build]
+cmds = ["cd backend && python manage.py collectstatic --noinput"]
+
+[start]
+cmd = "gunicorn --chdir backend config.wsgi:application --log-file -"

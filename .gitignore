@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Static/Media
+# We keep static files in source control if they are assets, but maybe not collected ones if using a separate bucket. 
+# For this simple deployment, checking in 'static' source is good.
+# checking in 'staticfiles' (collected) is usually not needed if we collect on build.
+staticfiles/
+backend/staticfiles/
+
+# Media - User uploads typically shouldn't be in repo, but for this app we might not be saving them persistently.
+# If we were, we'd add 'media/' here.
+media/
+backend/media/
+# Your accidental venv name
+cat/
+
+# Python build / wheels
+*.so
+*.dylib
+
+# Misc
+*.sqlite3
