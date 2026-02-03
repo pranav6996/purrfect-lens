@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="hero" style="margin-bottom: 2rem;">
+    <h1>Cat Breed Encyclopedia 📚</h1>
+    <p>Explore our complete database of {{ breeds.count }} cat breeds!</p>
+</div>
+
+<div class="breeds-grid">
+    {% for breed in breeds %}
+    <div class="card breed-card">
+        <h3>{{ breed.name }}</h3>
+        <p class="origin-tag">🌍 {{ breed.origin }}</p>
+        <p class="breed-desc">{{ breed.description|truncatewords:20 }}</p>
+
+        <div class="breed-expand hidden">
+            <hr>
+            <p><strong>❤️ Health:</strong> {{ breed.health_info }}</p>
+            <p><strong>🧶 Habits:</strong> {{ breed.habits }}</p>
+            <p><strong>🍗 Food:</strong> {{ breed.food_recommendations }}</p>
+        </div>
+
+        <button class="btn-secondary toggle-details">Read More</button>
+    </div>
+    {% endfor %}
+</div>
+
+<style>
+    .breeds-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+
+    .breed-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .origin-tag {
+        color: #777;
+        font-size: 0.9rem;
+        font-style: italic;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .btn-secondary {
+        margin-top: 1rem;
+        background: #eee;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .btn-secondary:hover {
+        background: #ddd;
+    }
+</style>
+
+<script>
+    document.querySelectorAll('.toggle-details').forEach(button => {
+        button.addEventListener('click', function () {
+            const card = this.closest('.breed-card');
+            const details = card.querySelector('.breed-expand');
+            const desc = card.querySelector('.breed-desc');
+
+            if (details.classList.contains('hidden')) {
+                details.classList.remove('hidden');
+                desc.style.display = 'none'; // Hide summary
+                this.textContent = 'Show Less';
+            } else {
+                details.classList.add('hidden');
+                desc.style.display = 'block'; // Show summary
+                this.textContent = 'Read More';
+            }
+        });
+    });
+</script>
+{% endblock %}

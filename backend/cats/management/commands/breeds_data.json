@@ -1,0 +1,605 @@
+[
+    {
+        "name": "Abyssinian",
+        "origin": "Egypt",
+        "description": "The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.",
+        "temperament": "Active, Energetic, Independent, Intelligent, Gentle",
+        "life_span": "14 - 15",
+        "energy_level": 5,
+        "health_issues": 2
+    },
+    {
+        "name": "Aegean",
+        "origin": "Greece",
+        "description": "Native to the Greek islands known as the Cyclades in the Aegean Sea, these are natural cats, meaning they developed without humans getting involved in their breeding.",
+        "temperament": "Affectionate, Social, Intelligent, Playful, Active",
+        "life_span": "9 - 12",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "American Bobtail",
+        "origin": "United States",
+        "description": "American Bobtails are loving and incredibly intelligent cats possessing a distinctive wild appearance.",
+        "temperament": "Intelligent, Interactive, Lively, Playful, Sensitive",
+        "life_span": "11 - 15",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "American Curl",
+        "origin": "United States",
+        "description": "Distinguished by truly unique ears that curl back in a graceful arc, offering an alert, perky, happily surprised expression.",
+        "temperament": "Affectionate, Curious, Intelligent, Interactive, Lively, Playful, Social",
+        "life_span": "12 - 16",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "American Shorthair",
+        "origin": "United States",
+        "description": "The American Shorthair is known for its longevity, robust health, good looks, sweet personality, and amiability.",
+        "temperament": "Active, Curious, Easy Going, Playful, Calm",
+        "life_span": "15 - 17",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "American Wirehair",
+        "origin": "United States",
+        "description": "The American Wirehair tends to be a calm and tolerant cat who takes life as it comes.",
+        "temperament": "Affectionate, Curious, Gentle, Intelligent, Interactive, Lively, Loyal, Playful, Sensible, Social",
+        "life_span": "14 - 18",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "Arabian Mau",
+        "origin": "United Arab Emirates",
+        "description": "Arabian Mau cats are social and energetic. Due to their energy levels, they do best in active homes.",
+        "temperament": "Affectionate, Agile, Curious, Independent, Playful, Loyal",
+        "life_span": "12 - 14",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Australian Mist",
+        "origin": "Australia",
+        "description": "The Australian Mist thrives on human companionship. Tolerant of even the youngest of children.",
+        "temperament": "Lively, Social, Fun-loving, Relaxed, Affectionate",
+        "life_span": "12 - 16",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Balinese",
+        "origin": "United States",
+        "description": "Balinese are curious, outgoing, intelligent cats with excellent communication skills.",
+        "temperament": "Affectionate, Intelligent, Playful",
+        "life_span": "10 - 15",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Bambino",
+        "origin": "United States",
+        "description": "The Bambino is a breed of cat that was created as a cross between the Sphynx and the Munchkin breeds.",
+        "temperament": "Affectionate, Lively, Friendly, Intelligent",
+        "life_span": "12 - 14",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Bengal",
+        "origin": "United States",
+        "description": "Bengals are a lot of fun to live with, but they're definitely not the cat for everyone. Extremely intelligent and active.",
+        "temperament": "Alert, Agile, Energetic, Demanding, Intelligent",
+        "life_span": "12 - 15",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Birman",
+        "origin": "France",
+        "description": "The Birman is a docile, quiet cat who loves people and will follow them from room to room.",
+        "temperament": "Affectionate, Active, Gentle, Social",
+        "life_span": "14 - 15",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "Bombay",
+        "origin": "United States",
+        "description": "The golden eyes and the shiny black coat of the Bombay is absolutely striking.",
+        "temperament": "Affectionate, Dependent, Gentle, Intelligent, Playful",
+        "life_span": "12 - 16",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "British Longhair",
+        "origin": "United Kingdom",
+        "description": "The British Longhair is a very laid-back relaxed cat, often perceived to be very independent.",
+        "temperament": "Affectionate, Easy Going, Independent, Intelligent, Loyal, Social",
+        "life_span": "12 - 14",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "British Shorthair",
+        "origin": "United Kingdom",
+        "description": "The British Shorthair is a very pleasant cat to have as a companion, ans is easy going and placid.",
+        "temperament": "Affectionate, Easy Going, Gentle, Loyal, Patient, calm",
+        "life_span": "12 - 17",
+        "energy_level": 2,
+        "health_issues": 2
+    },
+    {
+        "name": "Burmese",
+        "origin": "Burma",
+        "description": "Burmese love being with people, playing with them, and keeping them entertained.",
+        "temperament": "Curious, Intelligent, Gentle, Social, Interactive, Playful, Lively",
+        "life_span": "15 - 16",
+        "energy_level": 4,
+        "health_issues": 3
+    },
+    {
+        "name": "Burmilla",
+        "origin": "United Kingdom",
+        "description": "The Burmilla is a fairly placid cat. She tends to be an easy cat to get along with.",
+        "temperament": "Easy Going, Friendly, Intelligent, Lively, Playful, Social",
+        "life_span": "10 - 15",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "California Spangled",
+        "origin": "United States",
+        "description": "Perhaps the only thing about the California spangled cat that isn’t wild-like is its personality.",
+        "temperament": "Affectionate, Curious, Intelligent, Loyal, Social",
+        "life_span": "10 - 14",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Chantilly-Tiffany",
+        "origin": "United States",
+        "description": "The Chantilly is a devoted companion and prefers company to being left alone.",
+        "temperament": "Affectionate, Demanding, Interactive, Loyal",
+        "life_span": "14 - 16",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Chartreux",
+        "origin": "France",
+        "description": "The Chartreux is generally silent but communicative. Short play sessions are perfect.",
+        "temperament": "Affectionate, Loyal, Intelligent, Social, Lively, Playful",
+        "life_span": "12 - 15",
+        "energy_level": 2,
+        "health_issues": 2
+    },
+    {
+        "name": "Chausie",
+        "origin": "Egypt",
+        "description": "For those owners who desire a feline capable of evoking the great outdoors, the strikingly beautiful Chausie retains a bit of the wild.",
+        "temperament": "Affectionate, Intelligent, Playful, Social",
+        "life_span": "12 - 14",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Cheetoh",
+        "origin": "United States",
+        "description": "The Cheetoh has a super affectionate nature and real love for their human companions.",
+        "temperament": "Affectionate, Gentle, Intelligent, Social",
+        "life_span": "12 - 14",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Colorpoint Shorthair",
+        "origin": "United States",
+        "description": "Colorpoint Shorthairs are an affectionate breed, devoted and loyal to their people.",
+        "temperament": "Affectionate, Intelligent, Playful, Social",
+        "life_span": "12 - 16",
+        "energy_level": 4,
+        "health_issues": 2
+    },
+    {
+        "name": "Cornish Rex",
+        "origin": "United Kingdom",
+        "description": "This is a confident cat who loves people and will follow them around.",
+        "temperament": "Affectionate, Intelligent, Active, Curious, Playful",
+        "life_span": "11 - 14",
+        "energy_level": 5,
+        "health_issues": 2
+    },
+    {
+        "name": "Cymric",
+        "origin": "Canada",
+        "description": "The Cymric is a placid, sweet cat. They do not get too upset about anything.",
+        "temperament": "Gentle, Loyal, Intelligent, Playful",
+        "life_span": "8 - 14",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Cyprus",
+        "origin": "Cyprus",
+        "description": "Loving, loyal, social and inquisitive, the Cyprus cat forms strong ties with their families.",
+        "temperament": "Affectionate, Social",
+        "life_span": "12 - 15",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Devon Rex",
+        "origin": "United Kingdom",
+        "description": "The favourite perch of the Devon Rex is right at head level, on the shoulder of her favorite person.",
+        "temperament": "Highly interactive, Mischievous, Loyal, Social, Playful",
+        "life_span": "10 - 15",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Donskoy",
+        "origin": "Russia",
+        "description": "Donskoy are affectionate, intelligent, and easy-going. They demand lots of attention.",
+        "temperament": "Playful, affectionate, loyal, social",
+        "life_span": "12 - 15",
+        "energy_level": 4,
+        "health_issues": 3
+    },
+    {
+        "name": "Dragon Li",
+        "origin": "China",
+        "description": "The Dragon Li is loyal, but not particularly affectionate. They are known to be very intelligent.",
+        "temperament": "Intelligent, Friendly, Gentle, Loving, Loyal",
+        "life_span": "12 - 15",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "Egyptian Mau",
+        "origin": "Egypt",
+        "description": "The Egyptian Mau is gentle and reserved. She loves her people and desires attention.",
+        "temperament": "Agile, Dependent, Gentle, Intelligent, Lively, Loyal, Playful",
+        "life_span": "18 - 20",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "European Burmese",
+        "origin": "Burma",
+        "description": "The European Burmese is a very affectionate, intelligent, and loyal cat.",
+        "temperament": "Sweet, Affectionate, Loyal",
+        "life_span": "10 - 15",
+        "energy_level": 4,
+        "health_issues": 4
+    },
+    {
+        "name": "Exotic Shorthair",
+        "origin": "United States",
+        "description": "The Exotic Shorthair is a gentle friendly cat that has the same personality as the Persian.",
+        "temperament": "Affectionate, Sweet, Loyal, Quiet, Peaceful",
+        "life_span": "12 - 15",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "Havana Brown",
+        "origin": "United Kingdom",
+        "description": "The Havana Brown is human oriented, playful, and curious.",
+        "temperament": "Affectionate, Curious, Demanding, Friendly, Intelligent, Playful",
+        "life_span": "10 - 15",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "Himalayan",
+        "origin": "United States",
+        "description": "Calm and devoted, Himalayans make excellent companions, though they prefer a quieter home.",
+        "temperament": "Dependent, Gentle, Intelligent, Quiet, Social",
+        "life_span": "9 - 15",
+        "energy_level": 1,
+        "health_issues": 3
+    },
+    {
+        "name": "Japanese Bobtail",
+        "origin": "Japan",
+        "description": "The Japanese Bobtail is an active, sweet, loving and highly intelligent breed.",
+        "temperament": "Active, Agile, Clever, Easy Going, Intelligent, Lively, Loyal, Playful, Social",
+        "life_span": "14 - 16",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Javanese",
+        "origin": "United States",
+        "description": "Javanese are endlessly interested, intelligent and active.",
+        "temperament": "Active, Devoted, Intelligent, Playful",
+        "life_span": "10 - 12",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Khao Manee",
+        "origin": "Thailand",
+        "description": "The Khao Manee is highly intelligent, with an extrovert and inquisitive nature.",
+        "temperament": "Calm, Relaxed, Talkative, Playful, Warm",
+        "life_span": "10 - 12",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "Korat",
+        "origin": "Thailand",
+        "description": "The Korat is a natural breed, and one of the oldest stable cat breeds.",
+        "temperament": "Active, Loyal, highly intelligent, Expressive, Trainable",
+        "life_span": "10 - 15",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "Kurilian",
+        "origin": "Russia",
+        "description": "The character of the Kurilian Bobtail is independent, highly intelligent, clever, inquisitive.",
+        "temperament": "Independent, highly intelligent, clever, inquisitive, sociable, playful, trainable",
+        "life_span": "15 - 20",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "LaPerm",
+        "origin": "Thailand",
+        "description": "LaPerms are gentle and affectionate but also very active.",
+        "temperament": "Affectionate, Friendly, Gentle, Intelligent, Playful, Quiet",
+        "life_span": "10 - 15",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Maine Coon",
+        "origin": "United States",
+        "description": "They are known for their size and luxurious long coat Maine Coons are considered a gentle giant.",
+        "temperament": "Adaptable, Intelligent, Loving, Gentle, Independent",
+        "life_span": "12 - 15",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "Malayan",
+        "origin": "United Kingdom",
+        "description": "Malayans love to explore and even enjoy traveling by way of a cat carrier.",
+        "temperament": "Affectionate, Interactive, Playful, Social",
+        "life_span": "12 - 18",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Manx",
+        "origin": "Isle of Man",
+        "description": "The Manx is a placid, sweet cat that is gentle and playful.",
+        "temperament": "Easy Going, Intelligent, Loyal, Playful, Social",
+        "life_span": "12 - 14",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Munchkin",
+        "origin": "United States",
+        "description": "The Munchkin is an outgoing cat who enjoys being handled.",
+        "temperament": "Agile, Easy Going, Intelligent, Playful",
+        "life_span": "10 - 15",
+        "energy_level": 4,
+        "health_issues": 3
+    },
+    {
+        "name": "Nebelung",
+        "origin": "United States",
+        "description": "The Nebelung may have a reserved nature, but she loves to play.",
+        "temperament": "Gentle, Quiet, Shy, Playful",
+        "life_span": "11 - 16",
+        "energy_level": 3,
+        "health_issues": 2
+    },
+    {
+        "name": "Norwegian Forest Cat",
+        "origin": "Norway",
+        "description": "The Norwegian Forest Cat is a sweet, loving cat. She appreciates praise.",
+        "temperament": "Sweet, Active, Intelligent, Social, Playful, Lively, Curious",
+        "life_span": "12 - 16",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "Ocicat",
+        "origin": "United States",
+        "description": "Loyal and devoted to their owners, the Ocicat is intelligent, confident, outgoing.",
+        "temperament": "Active, Agile, Curious, Demanding, Friendly, Gentle, Lively, Playful, Social",
+        "life_span": "12 - 14",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Oriental",
+        "origin": "United States",
+        "description": "Orientals are passionate about the people in their lives.",
+        "temperament": "Energetic, Affectionate, Intelligent, Social, Playful, Curious",
+        "life_span": "12 - 14",
+        "energy_level": 5,
+        "health_issues": 3
+    },
+    {
+        "name": "Persian",
+        "origin": "Iran (Persia)",
+        "description": "Persians are sweet, gentle cats that can be playful or quiet and laid-back.",
+        "temperament": "Affectionate, loyal, Sedate, Quiet",
+        "life_span": "14 - 15",
+        "energy_level": 1,
+        "health_issues": 3
+    },
+    {
+        "name": "Pixie-bob",
+        "origin": "United States",
+        "description": "Companionable and affectionate, the Pixie-bob wants to be an integral part of the family.",
+        "temperament": "Affectionate, Social, Intelligent, Loyal",
+        "life_span": "13 - 16",
+        "energy_level": 4,
+        "health_issues": 2
+    },
+    {
+        "name": "Ragamuffin",
+        "origin": "United States",
+        "description": "The Ragamuffin is calm, even tempered and gets along well with all family members.",
+        "temperament": "Affectionate, Friendly, Gentle, Calm",
+        "life_span": "12 - 16",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "Ragdoll",
+        "origin": "United States",
+        "description": "Ragdolls love their people, greeting them at the door, following them around the house.",
+        "temperament": "Affectionate, Friendly, Gentle, Quiet, Easygoing",
+        "life_span": "12 - 17",
+        "energy_level": 3,
+        "health_issues": 3
+    },
+    {
+        "name": "Russian Blue",
+        "origin": "Russia",
+        "description": "Russian Blues are very loving and reserved. They do not like noisy households.",
+        "temperament": "Active, Dependent, Easy Going, Gentle, Intelligent, Loyal, Playful, Quiet",
+        "life_span": "10 - 16",
+        "energy_level": 3,
+        "health_issues": 1
+    },
+    {
+        "name": "Savannah",
+        "origin": "United States",
+        "description": "Savannah is the feline version of a dog. Actively seeking social interaction.",
+        "temperament": "Curious, Social, Intelligent, Loyal, Outgoing, Adventurous, Affectionate",
+        "life_span": "17 - 20",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Scottish Fold",
+        "origin": "United Kingdom",
+        "description": "The Scottish Fold is a sweet, charming breed. She is an easy cat to live with.",
+        "temperament": "Affectionate, Intelligent, Loyal, Playful, Social, Sweet, Loving",
+        "life_span": "11 - 14",
+        "energy_level": 3,
+        "health_issues": 4
+    },
+    {
+        "name": "Selkirk Rex",
+        "origin": "United States",
+        "description": "The Selkirk Rex is an incredibly patient, loving, and tolerant breed.",
+        "temperament": "Active, Affectionate, Dependent, Gentle, Patient, Playful, Quiet, Social",
+        "life_span": "14 - 15",
+        "energy_level": 3,
+        "health_issues": 4
+    },
+    {
+        "name": "Siamese",
+        "origin": "Thailand",
+        "description": "While Siamese cats are extremely fond of their people, they will follow you around.",
+        "temperament": "Active, Agile, Clever, Sociable, Loving, Energetic",
+        "life_span": "12 - 15",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Siberian",
+        "origin": "Russia",
+        "description": "The Siberians dog like temperament and affection makes the ideal lap cat.",
+        "temperament": "Curious, Intelligent, Loyal, Sweet, Agile, Playful, Affectionate",
+        "life_span": "12 - 15",
+        "energy_level": 5,
+        "health_issues": 2
+    },
+    {
+        "name": "Singapura",
+        "origin": "Singapore",
+        "description": "The Singapura is usually cautious when it comes to meeting new people.",
+        "temperament": "Affectionate, Curious, Easy Going, Intelligent, Interactive, Lively, Loyal",
+        "life_span": "12 - 15",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Snowshoe",
+        "origin": "United States",
+        "description": "The Snowshoe is a vibrant, energetic, affectionate and intelligent cat.",
+        "temperament": "Affectionate, Social, Intelligent, Sweet-tempered",
+        "life_span": "14 - 19",
+        "energy_level": 4,
+        "health_issues": 1
+    },
+    {
+        "name": "Somali",
+        "origin": "Somalia",
+        "description": "The Somali lives life to the fullest. He climbs higher, jumps farther, plays harder.",
+        "temperament": "Mischievous, Tenacious, Intelligent, Affectionate, Gentle, Interactive, Loyal",
+        "life_span": "12 - 16",
+        "energy_level": 5,
+        "health_issues": 2
+    },
+    {
+        "name": "Sphynx",
+        "origin": "Canada",
+        "description": "The Sphynx is an intelligent, inquisitive, extremely friendly people-oriented breed.",
+        "temperament": "Loyal, Inquisitive, Friendly, Quiet, Gentle",
+        "life_span": "12 - 14",
+        "energy_level": 3,
+        "health_issues": 4
+    },
+    {
+        "name": "Tonkinese",
+        "origin": "Canada",
+        "description": "Intelligent and generous with their affection, a Tonkinese will supervise all activities.",
+        "temperament": "Curious, Intelligent, Social, Lively, Outgoing, Playful, Affectionate",
+        "life_span": "14 - 16",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "Toyger",
+        "origin": "United States",
+        "description": "The Toyger has a sweet, calm personality and is generally friendly.",
+        "temperament": "Playful, Social, Intelligent",
+        "life_span": "12 - 15",
+        "energy_level": 5,
+        "health_issues": 2
+    },
+    {
+        "name": "Turkish Angora",
+        "origin": "Turkey",
+        "description": "This is a smart and intelligent cat which bonds well with humans.",
+        "temperament": "Affectionate, Agile, Clever, Gentle, Intelligent, Playful, Social",
+        "life_span": "15 - 18",
+        "energy_level": 5,
+        "health_issues": 2
+    },
+    {
+        "name": "Turkish Van",
+        "origin": "Turkey",
+        "description": "While the Turkish Van loves to jump and climb, play with toys, retrieve and play chase.",
+        "temperament": "Agile, Intelligent, Loyal, Playful, Energetic",
+        "life_span": "12 - 17",
+        "energy_level": 5,
+        "health_issues": 1
+    },
+    {
+        "name": "York Chocolate",
+        "origin": "United States",
+        "description": "York Chocolate cats are known to be true lap cats with a sweet temperament.",
+        "temperament": "Playful, Social, Intelligent, Curious, Friendly",
+        "life_span": "13 - 15",
+        "energy_level": 5,
+        "health_issues": 1
+    }
+]

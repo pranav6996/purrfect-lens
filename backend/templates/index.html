@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="hero">
+    <h1>Discover Your Cat's Breed! 🐾</h1>
+    <p>Upload a photo of any cat and our AI will tell you exactly what breed it is, along with fun facts and care tips!
+    </p>
+</div>
+
+<div class="main-layout">
+    <div class="card upload-section">
+        <h2>📸 Upload Photo</h2>
+        <form id="uploadForm">
+            {% csrf_token %}
+            <div class="file-drop-area">
+                <span class="fake-btn">Choose Image</span>
+                <span class="file-msg">or drag and drop here</span>
+                <input class="file-input" type="file" id="imageInput" accept="image/*" required>
+            </div>
+            <div id="preview-container" class="hidden">
+                <img id="imagePreview" src="" alt="Preview">
+            </div>
+            <button type="submit" class="btn-primary" id="predictBtn">Identify Breed! 🚀</button>
+        </form>
+    </div>
+
+    <div class="sidebar">
+        <div class="card fact-card">
+            <h3>Did you know? 💡</h3>
+            <p id="randomFact">{{ fact }}</p>
+            <button class="btn-secondary" onclick="fetchNewFact()">Another Fact!</button>
+        </div>
+    </div>
+</div>
+
+<div id="resultSection" class="result-modal hidden">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="breedName">Loading...</h2>
+        <p class="confidence-badge">Confidence: <span id="confidenceScore">--</span>%</p>
+
+        <div class="breed-details">
+            <div class="detail-item">
+                <strong>🌍 Origin:</strong> <span id="breedOrigin"></span>
+            </div>
+            <div class="detail-item">
+                <strong>📝 Description:</strong>
+                <p id="breedDesc"></p>
+            </div>
+            <div class="detail-item">
+                <strong>❤️ Health:</strong>
+                <p id="breedHealth"></p>
+            </div>
+            <div class="detail-item">
+                <strong>🧶 Habits:</strong>
+                <p id="breedHabits"></p>
+            </div>
+            <div class="detail-item">
+                <strong>🍗 Food:</strong>
+                <p id="breedFood"></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
