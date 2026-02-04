@@ -270,6 +270,29 @@ body {
     .main-layout {
         flex-direction: column;
     }
+
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        margin: 0 5px;
+        font-size: 0.9rem;
+    }
 }
 
 /* Cute Background Pattern (Seamless) */
